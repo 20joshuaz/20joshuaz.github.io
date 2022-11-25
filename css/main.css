@@ -1,0 +1,120 @@
+body {
+  font-family: Geneva, Tahoma, Verdana, sans-serif
+}
+
+.block {
+  background-color: white /*#E0E0E0*/;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container, .vert-container {
+  display: flex;
+  /* background-color: orange; */
+}
+
+.vert-container {
+  flex-direction: column;
+}
+
+.f1 {
+  flex: 1;
+}
+
+.f2 {
+  flex: 2;
+}
+
+.f4 {
+  flex: 4;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.small-margin-side, .small-margin-under, .small-margin-above {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.small-margin-under {
+  margin-bottom: 10px;
+}
+
+.small-margin-above {
+  margin-top: 10px;
+}
+
+.small-margin-below {
+  margin-bottom: 10px;
+}
+
+.content-centered {
+  justify-content: center;
+}
+
+.content-right {
+  justify-content: right;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.my-pic {
+  height: 250px;
+  width: 250px;
+  object-position: top;
+  object-fit: cover;
+  border-radius: 5%;
+}
+
+.intro-text {
+  font-size: 125%; 
+  text-align: left; 
+  align-items: center;
+}
+
+.intro-icon {
+  height: 75px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.sub-block {
+  background-color: white;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.intern-block {
+  outline-style: solid; 
+  outline-width: 3px;
+}
+
+.intern-logo {
+  height: 150px;
+  width: auto;
+  margin-top: 20px;
+}
+
+.intern-title {
+  font-weight: bold;
+  font-size: 130%;
+  margin-bottom: 0;
+}
+
+.intern-dates {
+  font-weight: bold;
+  font-size: 110%;
+  margin: 0;
+}
+
+.intern-desc {
+  margin-bottom: 0;
+}
