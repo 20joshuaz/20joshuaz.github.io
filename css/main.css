@@ -85,6 +85,11 @@ body {
   margin-right: 25px;
 }
 
+.bulleted-title {
+  margin-top: 10px; 
+  margin-bottom: 0px;
+}
+
 .sub-block {
   background-color: white;
   border-radius: 5px;
