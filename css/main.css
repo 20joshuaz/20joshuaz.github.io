@@ -4,11 +4,13 @@ body {
 
 .block {
   background-color: white /*#E0E0E0*/;
+  /*
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
+  */
 }
 
 .container, .vert-container {
@@ -32,25 +34,12 @@ body {
   flex: 4;
 }
 
-.margin-10 {
-  margin: 10px;
+.items-centered {
+  align-items: center;
 }
 
-.small-margin-side, .small-margin-under, .small-margin-above {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.small-margin-under {
-  margin-bottom: 10px;
-}
-
-.small-margin-above {
-  margin-top: 10px;
-}
-
-.small-margin-below {
-  margin-bottom: 10px;
+.items-bottom {
+  align-items: end;
 }
 
 .content-centered {
@@ -66,8 +55,8 @@ body {
 }
 
 .my-pic {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   object-position: top;
   object-fit: cover;
   border-radius: 5%;
@@ -75,14 +64,18 @@ body {
 
 .intro-text {
   font-size: 125%; 
-  text-align: left; 
-  align-items: center;
+  overflow-wrap: normal;
+  max-width: 750px;
+  margin: 0;
+}
+
+.intro-icon-block {
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .intro-icon {
   height: 75px;
-  margin-left: 25px;
-  margin-right: 25px;
 }
 
 .bulleted-title {
