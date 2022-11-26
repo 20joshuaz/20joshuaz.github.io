@@ -7,22 +7,14 @@ ul, h1 {
 }
 
 .block {
-  background-color: white /*#E0E0E0*/;
+  background-color: white;
   margin-left: 10px; 
   margin-right: 10px;
-  /*
-  border-radius: 5px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 0;
-  margin-right: 0;
-  */
 }
 
 .container, .vert-container {
   display: flex;
   gap: 10px;
-  /* background-color: orange; */
 }
 
 .container {
@@ -37,28 +29,12 @@ ul, h1 {
   flex: 1;
 }
 
-.f2 {
-  flex: 2;
-}
-
-.f4 {
-  flex: 4;
-}
-
 .items-centered {
   align-items: center;
 }
 
-.items-bottom {
-  align-items: end;
-}
-
 .content-centered {
   justify-content: center;
-}
-
-.content-right {
-  justify-content: right;
 }
 
 .text-centered {
@@ -80,11 +56,6 @@ ul, h1 {
   margin: 0;
 }
 
-.intro-icon-block {
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
 .intro-icon {
   height: 75px;
 }
@@ -98,31 +69,27 @@ ul, h1 {
   }
 }
 
-.bulleted-title {
-  margin-bottom: 0px;
-}
-
-.sub-block {
+.intern-block {
   background-color: white;
+  gap: 0;
   border-radius: 5px;
+  border-style: solid; 
+  border-width: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.intern-block {
-  outline-style: solid; 
-  outline-width: 3px;
 }
 
 .intern-logo {
   height: 150px;
   width: auto;
-  margin-top: 20px;
 }
 
 .intern-title {
   font-weight: bold;
   font-size: 130%;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
