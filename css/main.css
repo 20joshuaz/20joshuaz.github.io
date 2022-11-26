@@ -54,6 +54,11 @@ body {
   text-align: center;
 }
 
+.margin-side-10 {
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
 .my-pic {
   height: 300px;
   width: 300px;
@@ -79,7 +84,6 @@ body {
 }
 
 .bulleted-title {
-  margin-top: 10px; 
   margin-bottom: 0px;
 }
 
