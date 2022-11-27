@@ -67,6 +67,7 @@ ul, h1 {
 
 .scroll-down {
   height: 75px;
+  animation: bob 1s linear infinite;
 }
 
 @keyframes bob {
