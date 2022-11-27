@@ -58,6 +58,15 @@ ul, h1 {
 
 .intro-icon {
   height: 75px;
+  transition: all 0.1s;
+}
+
+.intro-icon:hover {
+  transform: scale(1.1);
+}
+
+.scroll-down {
+  height: 75px;
 }
 
 @keyframes bob {
@@ -72,6 +81,7 @@ ul, h1 {
 .intern-block {
   background-color: white;
   gap: 0;
+  transition: all 0.1s;
   border-radius: 5px;
   border-style: solid; 
   border-width: 3px;
@@ -81,9 +91,14 @@ ul, h1 {
   padding-right: 15px;
 }
 
+.intern-block:hover {
+  transform: scale(1.01);
+  filter: drop-shadow(0 0 10px darkgray)
+}
+
 .intern-logo {
   height: 150px;
-  width: auto;
+  width: 150px;
 }
 
 .intern-title {
