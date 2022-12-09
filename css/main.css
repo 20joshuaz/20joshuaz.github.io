@@ -1,5 +1,8 @@
 body {
-  font-family: Geneva, Tahoma, Verdana, sans-serif
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 32px;
 }
 
 ul, h1 {
@@ -51,8 +54,10 @@ ul, h1 {
 
 .intro-text {
   font-size: 125%; 
+  /* 
   overflow-wrap: normal;
-  max-width: 750px;
+  max-width: 750px; 
+  */
   margin: 0;
 }
 

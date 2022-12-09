@@ -12,49 +12,45 @@
 
   <body>
     <div class="vert-container" style="gap: 32px">
-      <div class="vert-container block" style="gap: 25px">
-        <div class="container content-centered items-centered f1" style="margin-top: 25px">
+      <div class="container block" style="gap: 25px; flex-wrap: nowrap;">
+        <div class="container content-centered items-centered">
           <img src="images/me hiking.jpg" class="my-pic">
         </div>
-        <div class="container items-centered content-centered f1">
-          <p class="intro-text text-centered">
-            Hi, I'm Joshua! I'm a junior at Columbia's Engineering School.
-            I study CS with a focus on <a href="https://bulletin.engineering.columbia.edu/track-2-software-systems-track">software systems</a>. 
-            My main interest lies in backend, though I'm always exploring the rest of the tech stack.
-            In my free time, I love playing tennis, hiking, and listening to music.
-            <br><br>
-            Feel free to reach out, and keep scrolling to learn more about me!
-          </p>
+        <div class="vert-container content-centered">
+          <div class="container items-centered content-centered">
+            <p class="intro-text">
+              Hi, I'm Joshua! I'm a junior at Columbia's Engineering School.
+              I study CS with a focus on <a href="https://bulletin.engineering.columbia.edu/track-2-software-systems-track">software systems</a>. 
+              My main interest lies in backend, though I'm always exploring the rest of the tech stack.
+              Feel free to reach out!
+            </p>
+          </div>
+          <div class="container content-centered" style="gap: 50px">
+            <div>
+              <a href="https://www.linkedin.com/in/joshua-zhou-9b511a164/">
+                <img class="intro-icon" src="images/linkedin.png" alt="LinkedIn" title="LinkedIn">
+              </a>
+            </div>
+            <div>
+              <a href="mailto:joshuazhou35@gmail.com">
+                <img class="intro-icon" src="images/email.png" alt="Email" title="Email">
+              </a>
+            </div>
+            <div>
+              <a href="images/joshuazhou_resume_2022.pdf" download>
+                <img class="intro-icon" src="images/resume.png" alt="Resume" title="Resume">
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/20joshuaz">
+                <img class="intro-icon" src="images/git.png" alt="Github" title="Github">
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="container content-centered f1" style="gap: 50px">
-          <div>
-            <a href="https://www.linkedin.com/in/joshua-zhou-9b511a164/">
-              <img class="intro-icon" src="images/linkedin.png" alt="LinkedIn" title="LinkedIn">
-            </a>
-          </div>
-          <div>
-            <a href="mailto:joshuazhou35@gmail.com">
-              <img class="intro-icon" src="images/email.png" alt="Email" title="Email">
-            </a>
-          </div>
-          <div>
-            <a href="images/joshuazhou_resume_2022.pdf" download>
-              <img class="intro-icon" src="images/resume.png" alt="Resume" title="Resume">
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/20joshuaz">
-              <img class="intro-icon" src="images/git.png" alt="Github" title="Github">
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="container content-centered">
-        <img class="scroll-down" src="images/arrow-down.png" alt="Scroll down">
       </div>
       
+      <div><hr></div>
       
       <div class="vert-container block">
         <div class="container">
@@ -64,14 +60,30 @@
           <ul>
             <li>A full compiler frontend for <a href="https://github.com/Akash-Nayar/CoBruh">CoBruh</a>, a language that my friends and I designed</li>
             <li>TAing for Databases</li>
-            <li><a href="https://github.com/20joshuaz/Terminal-2048">Terminal 2048</a>, a customizable 2048 game that can be played in terminal (learned some cool printing magic!)</li>
             <li>This website! I got to brush up on my HTML and CSS skills. Next up is JS!</li>
           </ul>
         </div>
       </div>
       
-
-      
+      <div class="vert-container block">
+        <div class="container">
+          <h1>CS Coursework</h1>
+        </div>
+        <div class="container">
+          <ul>
+            <li><b>Operating Systems:</b> In progress</li>
+            <li><b>Advanced Database Systems:</b> In progress</li>
+            <li><b>Programming Languages and Translators:</b> OCaml, LLVM, SLR parsers, LR(0) automata. Built a scanner, parser, semantics checker, and intermediate code generator from scratch in OCaml for <a href="https://github.com/Akash-Nayar/CoBruh">CoBruh</a>.</li>
+            <li><b>Intro to Databases:</b> SQL, database theory, MongoDB, Neo4j, relational algebra</li>
+            <li><b>CS Theory:</b> Turing machines, decidability, P vs. NP, CFG, regular expressions, automata</li>
+            <li><b>Fundamentals of Computer Systems:</b> CPU architecture, MIPS, state machines, flip-flops and latches, boolean algebra</li>
+            <li><b>Advanced Programming:</b> C, Unix, TCP and IP networking. Coded a 3-tier application in C that allowed users to search through records in a database.</li>
+            <li><b>Data Structures</b></li>
+            <li><b>Computational Linear Algebra</b></li>
+            <li><b>Discrete Math</b></li>
+          </ul>
+        </div>
+      </div>
 
       <div class="vert-container block">
         <div class="container">
@@ -116,29 +128,6 @@
         </div>
       </div>
       
-      
-
-
-      <div class="vert-container block">
-        <div class="container">
-          <h1>CS Coursework</h1>
-        </div>
-        <div class="container">
-          <ul>
-            <li><b>Operating Systems:</b> In progress</li>
-            <li><b>Advanced Database Systems:</b> In progress</li>
-            <li><b>Programming Languages and Translators:</b> OCaml, LLVM, SLR parsers, LR(0) automata. Built a scanner, parser, semantics checker, and intermediate code generator from scratch in OCaml for <a href="https://github.com/Akash-Nayar/CoBruh">CoBruh</a>.</li>
-            <li><b>Intro to Databases:</b> SQL, database theory, MongoDB, Neo4j, relational algebra</li>
-            <li><b>CS Theory:</b> Turing machines, decidability, P vs. NP, CFG, regular expressions, automata</li>
-            <li><b>Fundamentals of Computer Systems:</b> CPU architecture, MIPS, state machines, flip-flops and latches, boolean algebra</li>
-            <li><b>Advanced Programming:</b> C, Unix, TCP and IP networking. Coded a 3-tier application in C that allowed users to search through records in a database.</li>
-            <li><b>Data Structures</b></li>
-            <li><b>Computational Linear Algebra</b></li>
-            <li><b>Discrete Math</b></li>
-          </ul>
-        </div>
-      </div>
-
       <div><hr></div>
 
     </div>
