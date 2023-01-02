@@ -1,18 +1,14 @@
 body {
   font-family: Geneva, Tahoma, Verdana, sans-serif;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-top: 32px;
+  margin: 25px;
 }
 
-ul, h1 {
+ul, h1, p {
   margin: 0;
 }
 
 .block {
   background-color: white;
-  margin-left: 10px; 
-  margin-right: 10px;
 }
 
 .container, .vert-container {
@@ -53,12 +49,7 @@ ul, h1 {
 }
 
 .intro-text {
-  font-size: 125%; 
-  /* 
-  overflow-wrap: normal;
-  max-width: 750px; 
-  */
-  margin: 0;
+  font-size: 125%;
 }
 
 .intro-icon {
@@ -70,21 +61,8 @@ ul, h1 {
   transform: scale(1.1);
 }
 
-.scroll-down {
-  height: 75px;
-}
-
-.scroll-down:hover {
-  animation: bob 1s linear infinite;
-}
-
-@keyframes bob {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
+.block-title {
+  font-family: "Gloria Hallelujah";
 }
 
 .intern-block {
@@ -114,15 +92,10 @@ ul, h1 {
   font-weight: bold;
   font-size: 130%;
   margin-top: 20px;
-  margin-bottom: 0;
 }
 
 .intern-dates {
   font-weight: bold;
   font-size: 110%;
-  margin: 0;
-}
-
-.intern-desc {
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
