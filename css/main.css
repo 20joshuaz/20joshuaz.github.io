@@ -43,6 +43,30 @@ ul, h1, p {
   text-align: center;
 }
 
+@keyframes fade-in {
+  from {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes clear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.intro-block {
+  animation: clear 0.5s, fade-in 0.5s 0.5s;
+}
+
 .my-pic {
   height: 300px;
   width: 300px;
@@ -62,6 +86,10 @@ ul, h1, p {
 
 .intro-icon:hover {
   transform: scale(1.1);
+}
+
+.info-block {
+  animation: clear 1s, fade-in 0.5s 1s;
 }
 
 .block-title {
