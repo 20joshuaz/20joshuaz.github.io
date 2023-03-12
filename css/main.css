@@ -39,9 +39,8 @@ ul, h1, p {
 }
 
 .nav-bar {
-  background-color: #B9D9EB;
+  background-color: whitesmoke;
   height: 45px;
-  border-radius: 5px;
 }
 
 .nav-item {
@@ -51,6 +50,10 @@ ul, h1, p {
 .nav-link:link, .nav-link:visited {
   text-decoration: none;
   color: black;
+}
+
+.nav-link:hover, .nav-link:active {
+  color: royalblue;
 }
 
 .page-body {
