@@ -40,7 +40,7 @@ ul, h1, p {
 }
 
 .nav-bar {
-  background-color: whitesmoke;
+  background-color: steelblue;
   height: 45px;
 }
 
@@ -50,11 +50,11 @@ ul, h1, p {
 
 .nav-link:link, .nav-link:visited {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .nav-link:hover, .nav-link:active {
-  color: royalblue;
+  color: lightgray;
 }
 
 .page-body {
