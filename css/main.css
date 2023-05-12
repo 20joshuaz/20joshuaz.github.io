@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
 
 body {
-  margin: 0;
+  margin: 25px;
   font-family: Geneva, Tahoma, Verdana, sans-serif;
 }
 
@@ -10,9 +10,14 @@ ul, h1, p {
   margin: 0;
 }
 
+hr {
+  width: 100%;
+  margin: 0;
+}
+
 .container, .vert-container {
   display: flex;
-  gap: 10px;
+  gap: 25px;
 }
 
 .container {
@@ -21,6 +26,10 @@ ul, h1, p {
 
 .vert-container {
   flex-direction: column;
+}
+
+.title-and-text {
+  gap: 10px;
 }
 
 .f1 {
@@ -55,12 +64,6 @@ ul, h1, p {
 
 .nav-link:hover, .nav-link:active {
   color: lightgray;
-}
-
-.page-body {
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 25px;
 }
 
 .my-pic {
