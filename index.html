@@ -10,68 +10,163 @@
   </head>
 
   <body>
-    <div class="vert-container" style="gap: 25px;">
-      <div class="container content-centered items-centered nav-bar">
-        <div class="container content-centered f1">
-          <p class="nav-item">
-            <a href="index.html" target="_self" class="nav-link">
-              <b>Home</b>
-            </a>
-          </p>
-        </div>
-        <div class="container content-centered f1">
-          <p class="nav-item">
-            <a href="work.html" target="_self" class="nav-link">
-              <b>Work Experience</b>
-            </a>
-          </p>
-        </div>
-        <div class="container content-centered f1">
-          <p class="nav-item">
-            <a href="play.html" target="_self" class="nav-link">
-              <b>Fun Stuff</b>
-            </a>
-          </p>
-        </div>
-      </div>
+    <div class="vert-container">
 
-      <div class="vert-container page-body">
+      <!-- Intro block -->
+      <div class="container content-centered">
+
+        <!-- Headshot -->
         <div class="container content-centered">
           <img src="images/headshot.jpg" class="my-pic">
         </div>
-        <div class="container block-title content-centered text-centered">
-          <h1 style="font-size: 40px;">Hi, I'm Joshua!</h1>
-        </div>
-        <div class="container content-centered text-centered">
-          <p class="intro-text">
-            I'm a junior studying CS (<a href="https://bulletin.engineering.columbia.edu/track-2-software-systems-track">software systems</a>) at Columbia's Engineering School.
-            My main interest lies in backend, though I'm always exploring the rest of the tech stack.
-            Feel free to reach out!
-          </p>
-        </div>
-        <div class="container content-centered" style="gap: 50px; margin-top: 15px;">
-          <div>
-            <a href="https://www.linkedin.com/in/joshua-zhou-9b511a164/">
-              <img class="intro-icon" src="images/linkedin.png" alt="LinkedIn" title="LinkedIn">
-            </a>
+
+        <!-- Intro text -->
+        <div class="vert-container title-and-text">
+          <div class="container block-title content-centered text-centered">
+            <h1 style="font-size: 40px;">Hi, I'm Joshua!</h1>
           </div>
-          <div>
-            <a href="mailto:joshuazhou35@gmail.com">
-              <img class="intro-icon" src="images/email.png" alt="Email" title="Email">
-            </a>
+          <div class="container content-centered text-centered">
+            <p class="intro-text">
+              I'm a junior studying CS (<a href="https://bulletin.engineering.columbia.edu/track-2-software-systems-track">software systems</a>) at Columbia's Engineering School.
+              My main interest lies in backend, though I'm always exploring the rest of the tech stack.
+              Feel free to reach out!
+            </p>
           </div>
-          <div>
-            <a href="images/joshuazhou_resume_2022.pdf" download>
-              <img class="intro-icon" src="images/resume.png" alt="Resume" title="Resume">
-            </a>
-          </div>
-          <div>
-            <a href="https://github.com/20joshuaz">
-              <img class="intro-icon" src="images/git.png" alt="Github" title="Github">
-            </a>
+          <div class="container content-centered" style="gap: 50px; margin-top: 15px;">
+            <div>
+              <a href="https://www.linkedin.com/in/joshua-zhou-9b511a164/">
+                <img class="intro-icon" src="images/linkedin.png" alt="LinkedIn" title="LinkedIn">
+              </a>
+            </div>
+            <div>
+              <a href="mailto:joshuazhou35@gmail.com">
+                <img class="intro-icon" src="images/email.png" alt="Email" title="Email">
+              </a>
+            </div>
+            <div>
+              <a href="images/joshuazhou_resume_2022.pdf" download>
+                <img class="intro-icon" src="images/resume.png" alt="Resume" title="Resume">
+              </a>
+            </div>
+            <div>
+              <a href="https://github.com/20joshuaz">
+                <img class="intro-icon" src="images/git.png" alt="Github" title="Github">
+              </a>
+            </div>
           </div>
         </div>
       </div>
+
+      <hr>
+
+      <!-- Work experiences block -->
+      <div class="vert-container">
+
+        <!-- Current projects -->
+        <div class="vert-container title-and-text">
+          <div class="container block-title">
+            <h1>I'm currently working on...</h1>
+          </div>
+          <div class="container">
+            <ul>
+              <li>TAing for Intro to Databases</li>
+              <li>Research in optimizing convolution computations</li>
+              <li>A <a href="https://github.com/20joshuaz/gc-jerk-chicken">Twitter bot</a> that <a href="https://twitter.com/CUJerkChicken">tweets</a> every day whether the dining halls are serving jerk chicken</li>
+              <li>This website!</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Coursework -->
+        <div class="vert-container title-and-text">
+          <div class="container block-title">
+            <h1>CS Coursework</h1>
+          </div>
+          <div class="container">
+            <ul>
+              <li><b>Networks:</b> In progress</li>
+              <li><b>Advanced Database Systems:</b> In progress</li>
+              <li><b>Programming Languages and Translators:</b> OCaml, LLVM, SLR parsers, LR(0) automata. Built scanner, parser, semantics checker, and IR generator from scratch in OCaml for <a href="https://github.com/Akash-Nayar/CoBruh">CoBruh</a>.</li>
+              <li><b>Intro to Databases:</b> SQL, database theory, MongoDB, Neo4j, relational algebra</li>
+              <li><b>CS Theory:</b> Turing machines, decidability, P vs. NP, CFG, regular expressions, automata</li>
+              <li><b>Fundamentals of Computer Systems:</b> CPU architecture, MIPS, state machines, flip-flops and latches, boolean algebra</li>
+              <li><b>Advanced Programming:</b> C, Unix, TCP and IP networking. Coded a 3-tier application in C that allowed users to search through records in a database.</li>
+              <li><b>Data Structures</b></li>
+              <li><b>Computational Linear Algebra</b></li>
+              <li><b>Discrete Math</b></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Internships -->
+        <div class="vert-container title-and-text">
+          <div class="container block-title">
+            <h1>Internships</h1>
+          </div>
+          <div class="container" style="gap: 20px;">
+            <div class="vert-container intern-block text-centered items-centered f1" style="border-color: purple;">
+              <img class="intern-logo" src="images/datadog.png" alt="Datadog logo" title="Datadog">
+              <p class="intern-title">SWE Intern</p>
+              <p class="intern-dates">Summer 2023, NYC</p>
+              <p>
+                So excited!
+              </p>
+            </div>
+            <div class="vert-container intern-block text-centered items-centered f1" style="border-color: blue;">
+              <img class="intern-logo" src="images/coinbase.png" alt="Coinbase logo" title="Coinbase">
+              <p class="intern-title">SWE Intern: Ledger</p>
+              <p class="intern-dates">Summer 2022, Remote</p>
+              <p>
+                I set up a background job system (Faktory) and migrated existing jobs to this system for greater scalability.
+                I developed and fully implemented a proposal with three goals: write a new job that transfers crypto dust (small amounts of crypto) between accounts, create an API endpoint that runs jobs,
+                and design an easy-to-use UI that calls the endpoint to execute the crypto transfer.
+                <br><br>
+                Technologies used: Go, AWS, Postgres, gRPC
+              </p>
+            </div>
+            <div class="vert-container intern-block text-centered items-centered f1" style="border-color: hotpink;">
+              <img class="intern-logo" src="images/perfect.jpg" alt="Perfect Corp logo" title="Perfect Corp">
+              <p class="intern-title">Data Consultant Intern</p>
+              <p class="intern-dates">May 2021 - May 2022, Remote</p>
+              <p>
+                I took the initiative to identify inefficient tasks and write programs to streamline these errands.
+                I worked with the technical team to implement my programs into Perfect's content management system.
+                I oversaw product data and brand accounts in the CMS.
+                I communicated with business partners like Estee Lauder to maintain product and SKU information.
+                <br><br>
+                Technologies used: Python, Excel, CMS
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Fun stuff -->
+      <div class="container" style="gap: 20px;">
+
+        <!-- Spotify -->
+        <div class="vert-container items-centered f1 title-and-text">
+          <div class="container block-title">
+            <h1>Listen with me...</h1>
+          </div>
+          <div class="container">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1EpzGpgqNsLZRB?utm_source=generator" width="500" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+
+        <!-- CUJK -->
+        <div class="vert-container items-centered f1 title-and-text">
+          <div class="container block-title">
+            <h1>...and follow CUJK!</h1>
+          </div>
+          <div class="container">
+            <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/CUJerkChicken?ref_src=twsrc%5Etfw">Tweets by CUJerkChicken</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
