@@ -1,5 +1,5 @@
 @import url("https://unpkg.com/sanitize.css");
-@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah");
+@import url("https://fonts.googleapis.com/css?family=Patua+One");
 
 body {
   margin: 25px;
@@ -29,7 +29,7 @@ hr {
 }
 
 .title-and-text {
-  gap: 10px;
+  gap: 0px;
 }
 
 .f1 {
@@ -46,24 +46,6 @@ hr {
 
 .text-centered {
   text-align: center;
-}
-
-.nav-bar {
-  background-color: #24292f;
-  height: 60px;
-}
-
-.nav-item {
-  font-size: 17px;
-}
-
-.nav-link:link, .nav-link:visited {
-  text-decoration: none;
-  color: white;
-}
-
-.nav-link:hover, .nav-link:active {
-  color: lightgray;
 }
 
 .my-pic {
@@ -86,7 +68,7 @@ hr {
 }
 
 .block-title {
-  font-family: "Gloria Hallelujah";
+  font-family: "Patua One";
 }
 
 .intern-block {
@@ -102,10 +84,10 @@ hr {
   padding-right: 15px;
 }
 
-.intern-block:hover {
+/* .intern-block:hover {
   transform: scale(1.01);
   filter: drop-shadow(0 0 10px darkgray)
-}
+} */
 
 .intern-logo {
   height: 150px;
