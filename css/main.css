@@ -1,5 +1,4 @@
 @import url("https://unpkg.com/sanitize.css");
-@import url("https://fonts.googleapis.com/css?family=Patua+One");
 
 body {
   background-color: white;
@@ -69,9 +68,7 @@ hr {
   transform: scale(1.1);
 }
 
-.block-title {
-  font-family: "Patua One";
-}
+.block-title {}
 
 .intern-block {
   gap: 0;
